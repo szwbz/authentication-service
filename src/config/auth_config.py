@@ -6,8 +6,8 @@ including token expiration times, security settings, and other authentication
 parameters.
 """
 
-# Token expiration time in seconds (1 hour)
-TOKEN_EXPIRATION = 3600
+# Token expiration time in seconds (2 hours)
+TOKEN_EXPIRATION = 7200
 
 # Secret key for JWT token signing (should be set via environment variable in production)
 SECRET_KEY = "default-secret-key-change-in-production"
